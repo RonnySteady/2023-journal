@@ -1,38 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 1000;
+  padding: 1000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: darkgrey;
+  padding: 10px;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 393px;
+  max-height: 852px;
+  background: white;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 0px;
+  box-shadow: 0px 10px 15px 15px rgba(0, 0, 0, 0.1);
+  overflow: scroll;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: whitesmoke;
+  color: grey;
+  font-size: 35px;
+  font-weight: 320;
+  padding: 5px;
+}
+
+.App-logo {
+  margin-top: 10px;
+  width: 25px;
+}
+
+.App-main {
+  background-color: white;
+  color: grey;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.App-footer {
+  background-color: whitesmoke;
+  color: grey;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.button {
+  box-shadow: 20px 20px 25px 25px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  height: 45px;
+  width: 150px;
+  border-radius: 4px;
+  margin-top: 7px;
+  cursor: pointer;
+  outline: none;
+  background: red;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-transform: capitalize;
+  float: center;
+  margin-left: 00px;
 }
